@@ -1,0 +1,266 @@
+ESERCIZIO 1 HMTL VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+
+function virus1()
+{
+    for(i=0;i<10;i++)
+    {
+        alert("BENVENUTO MIO CARO CLIENTE  ")
+        alert("JUVE MERDAAAA FOZZA NAPOLIIII  ")
+ 
+
+    }
+    }
+
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <button onclick= "virus1()" >test</button>
+</body>
+</html>
+
+
+ESERCIZIO 2 HTML VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+
+function virus1()
+{
+    for(i=0;i<10;i++)
+    {
+        alert("1")
+        alert("2")
+        alert("3")
+        alert("4")
+        alert("5")
+     }
+    }
+
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <button onclick= "virus1()" >test</button>
+</body>
+</html>
+
+
+ESERCIZIO 3 VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+
+function virus1()
+ {
+
+    for(i=0;i<10;i++)
+    {
+        alert("2")
+        alert("4")
+        alert("6")
+        alert("8")
+        alert("10")
+        alert("12")
+        alert("14")
+        alert("16")
+        alert("18")
+        alert("20")
+    }
+
+
+ } 
+
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <button onclick= "virus1()" >test</button>
+</body>
+</html>
+
+ESERCIZIO 4 HTML VIRUS
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+function calculate() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var sum = num1 + num2;
+    alert("La somma dei due numeri è: " + sum);
+}
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <button onclick="calculate()">Calcola</button>
+</body>
+</html>
+
+
+ESERCIZIO 5 HTML VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+function calculate() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var num3 = parseInt(document.getElementById("num3").value);
+    var sum = num1 + num2  +  num3;
+    alert("La somma dei due numeri è: " + sum);
+}
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <input type="text" id="num3">
+    <button onclick="calculate()">Calcola</button>
+</body>
+</html>
+
+
+ESERCIZIO 6 HTML VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+function calculate() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var num3 = parseInt(document.getElementById("num3").value);
+    var sum = num1 + num2  -  num3;
+    alert("La somma dei due numeri è: " + sum );
+}
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    <input type="text" id="num3">
+    <button onclick="calculate()">Calcola</button>
+</body>
+</html>
+
+
+ESERCIZIO 7 HTML VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+function calculate() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+   
+    var sum = num1 * num2 ;
+    alert("i miei mesi vissuti sono : " + sum );
+}
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    
+    <button onclick="calculate()">Calcola</button>
+</body>
+</html>
+
+
+ESERCIZIO 8 HTML VIRUS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<script>
+function calculate() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+   
+    var sum = num1 * num2 ;
+    alert("i miei minuti e secondi sono : " + sum );
+}
+
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <input type="text" id="num1">
+    <input type="text" id="num2">
+    
+    <button onclick="calculate()">Calcola</button>
+</body>
+</html>
