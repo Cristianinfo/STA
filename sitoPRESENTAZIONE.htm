@@ -25,8 +25,8 @@
         }
         h1 {
             margin: 0;
-            font-size: 2.5em;
-            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+            font-size: 2.8em;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
         }
         h2 {
             border-bottom: 2px solid #004d40;
@@ -64,12 +64,16 @@
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
         }
         .img-small {
-            width: 40%;
+            width: 45%;
             border-radius: 10px;
-            margin: 10px 5%;
+            margin: 10px 2.5%;
             display: inline-block;
             vertical-align: top;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
         }
         @keyframes fadeIn {
             from { opacity: 0; }
@@ -83,8 +87,12 @@
             padding: 10px;
             border-top: 2px solid #00796b;
         }
+        .highlight {
+            color: #00796b;
+            font-weight: bold;
+        }
         @media (max-width: 600px) {
-            h1 { font-size: 2em; }
+            h1 { font-size: 2.5em; }
             .img-small { width: 80%; }
             .contact-info {
                 font-size: 1em;
@@ -112,7 +120,7 @@
 <section>
     <h2>Esperienza Professionale</h2>
     <h3>Cucina e Ristorazione</h3>
-    <p><strong>Autonomo, Catanzaro</strong> | [anno inizio] – Presente</p>
+    <p><strong>Autonomo, Catanzaro</strong> | <span class="highlight">[anno inizio] – Presente</span></p>
     <ul>
         <li>Preparazione di piatti tradizionali cinesi, con attenzione alla presentazione.</li>
         <li>Sviluppo di ricette originali ispirate alla cucina cinese.</li>
@@ -123,7 +131,7 @@
 
 <section>
     <h2>Istruzione</h2>
-    <p><strong>Diploma di Maturità</strong> | Istituto Superiore di Catanzaro | [anno]</p>
+    <p><strong>Diploma di Maturità</strong> | Istituto Superiore di Catanzaro | <span class="highlight">[anno]</span></p>
     <img class="img-small" src="https://www.invalsiopen.it/wp-content/uploads/2021/04/istruzione-e-mobilita-sociale.jpg" alt="Istruzione">
 </section>
 
